@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clr {
+    clear: both;
+    height: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.conteiner {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 360px;
+    background-color: #f5f5f5;
+
+}
+
+.logo {
+    margin-top: 63px;
+    margin-left: 98px;
+    transition: all .8s;
+}
+
+.logo:hover {
+    transform: scale(1.3)
+}
+
+.menu {
+    float: right;
+    margin-right: 190px;
+    margin-top: 67px;
+}
+
+.menu li {
+    float: left;
+    transition: all .5s;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+.menu li a{
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    text-decoration: none;
+    display: block;
+    padding: 0 20px;
+    transition: all .5s;
+}
+.menu li:nth-child(-n+5):hover {
+    border-bottom: 2px solid black;
+    transform: scale(1.3);
+}
+.menu li a:hover {
+    color: #212121;
+    font-weight: 500;
+}
+
+.menu img {
+    padding-top: 10px;
+    padding-left: 20px;
+    transition: all .8s;
+}
+
+.menu img:hover {
+    transform: scale(1.4) rotate(400deg);
+}
+
+.headinfo {
+    padding: 140px 0 0 101px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.headinfo h1 {
+    color: #212121;
+    font-family: "Montserrat - Thin";
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 72px;
+}
+
+.contacts {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 122px;
+}
+
+.block {
+    width: 370px;
+    height: 370px;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+
+.block img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+.block * {
+    display: block;
+    text-align: center;
+}
+
+.block h2 {
+    padding-top: 34px;
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.88px;
+    text-transform: uppercase;
+}
+
+.contactinfo p:nth-child(2n-1) {
+    padding-top: 10px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.contactinfo p:nth-child(2n) {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.contactinfo p:last-child {
+    font-weight: 300;
+}
+
+footer {
+    width: 1366px;
+    height: 384px;
+    background-color: #f7f7f7;
+}
+
+.row1 h3 {
+    display: inline-block;
+    margin-top: 120px;
+}
+
+.row1 h3:nth-child(1) {
+    margin-left: 99px;
+
+}
+
+.row1 h3:nth-child(2) {
+    margin-left: 180px;
+
+}
+
+.row1 h3:nth-child(3) {
+    margin-left: 250px;
+
+}
+
+.row1 h3 a {
+    color: #6c6c6c;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    text-decoration: none;
+}
+
+.row1 h3 a:hover {
+    color: #212121;
+}
+
+.row2 div {
+    /*border: 1px solid black; */
+    display: block;
+    float: left;
+}
+
+.row2_dt1 ul li,
+.row2_dt4 ul li {
+    color: #212121;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 22px;
+    /* Приближение из-за подстановки шрифтов */
+}
+
+.row2_dt2 ul li a,
+.row2_dt3 ul li a {
+    color: #212121;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 26px;
+    /* Приближение из-за подстановки шрифтов */
+}
+
+.row2_dt1 ul li:nth-child(1),
+.row2_dt2 ul li:nth-child(1),
+.row2_dt3 ul li:nth-child(1),
+.row2_dt4 ul li:nth-child(1) {
+    margin-top: 24px;
+}
+
+.row2_dt1 ul li:nth-child(3) {
+    margin-top: 15px;
+}
+
+.row2_dt1 {
+    margin-left: 97px;
+    text-decoration: none;
+}
+
+.row2_dt2 {
+    margin-left: 80px;
+}
+
+.row2_dt3 {
+    margin-left: 103px;
+}
+
+.row2_dt4 {
+    margin-left: 78px;
+}
+
+input {
+    border-width: 1px;
+    border-color: #d9dee1;
+    border-style: solid;
+    background-color: #ffffff;
+    width: 368px;
+    height: 46px;
+    padding-left: 15px;
+}
+
+.mail {
+    margin-top: 26px;
+}
+
+.mail img {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 350px;
+}
+
+.row3_td1 {
+    display: block;
+    margin-left: 98px;
+    margin-top: 40px;
+}
+
+.row3_td1 p,
+.row3_td3 p {
+    color: #6c6c6c;
+    font-size: 12px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 26px;
+    /* Приближение из-за подстановки шрифтов */
+}
+
+.row3_td2 {
+    margin-left: 158px;
+    margin-top: 40px;
+}
+
+.row3_td3 {
+    margin-left: 172px;
+    margin-top: 40px;
+
+}
